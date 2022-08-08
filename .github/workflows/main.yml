@@ -23,4 +23,4 @@ jobs:
     - name: Starting CRD 
       run: ${{ github.event.inputs.authcode }} -pin=${{ github.event.inputs.pincode }}
     - name: Keep Alive
-      run: ./utils.psm1
+      run: ./timeout.ps1
